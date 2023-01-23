@@ -1,10 +1,7 @@
-@import url('https://fonts.google.com/specimen/Outfit');
-@font-face {
-    font-family: Outfit;
-    src: local();
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
     margin: 0;
 }
 
@@ -33,30 +30,26 @@ body {
     background: #15263F;
 
 }
-
+/* IMAGE */
 img.nft {
     width: 350px;
     height: 350px;
-}
 
+/* HEADLINE */
+}
 h1 {
     font-size: 22px;
+    font-weight: 900;
 }
 
+/* DESCRIPTION */
 .description {
     font-size: 18px;
-    font-weight: light;
+    font-weight: 300;
     color: #8BACD9;
 }
-.currency-time {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 350px;
-    color: #8BACD9;
 
-}
-
+/* CURRENCY AND TIME */
 .currency {
     display: flex;
     flex-direction: row;
@@ -66,10 +59,17 @@ h1 {
     font-weight: bold;
     color: cyan;
 }
+.currency-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    color: #8BACD9;
+
+}
 .currency img {
     max-width: 20px;
 }
-
 .time {
     display: flex;
     flex-direction: row;
@@ -78,11 +78,13 @@ h1 {
     height: 20px;
 }
 
+/* LINE */
 hr {
     width: 350px;
     border: 1px solid #2E405A;
 }
 
+/* CREDIT */
 .creator {
     display: flex;
     flex-direction: row; 
