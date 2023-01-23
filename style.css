@@ -1,0 +1,105 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+@font-face {
+    font-family: Outfit;
+    src: local();
+}
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background: #0D192C;
+
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 350px;
+    max-height: 596px;
+    border-radius: 20px;
+    padding: 25px;
+    padding-bottom: 50px;
+    gap: 30px;
+
+    color: white;
+    background: #15263F;
+
+}
+
+img.nft {
+    width: 350px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: light;
+    color: #8BACD9;
+}
+.currency-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    color: #8BACD9;
+
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    height: 20px;
+    font-weight: bold;
+    color: cyan;
+}
+.currency img {
+    max-width: 20px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    height: 20px;
+}
+
+hr {
+    width: 350px;
+    border: 1px solid #2E405A;
+}
+
+.creator {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.profile-picture {
+    height: 20px;
+}
+
+.creation-of {
+    color: #8BACD9;
+}
+
+.creator-name {
+    font-weight: bold;
+}
+
+
+
