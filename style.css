@@ -8,10 +8,14 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: space-between;
+    align-items: center;
     background: #0D192C;
 
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .card {
@@ -30,16 +34,29 @@ body {
     background: #15263F;
 
 }
+
 /* IMAGE */
-img.nft {
+.nft {
     width: 350px;
     height: 350px;
+    border-radius: 8px;
+}
+
+.nft:hover {
+    background: #00FFF8;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    border-radius: 8px;
+}
 
 /* HEADLINE */
-}
 h1 {
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 700;
+    color: white;
+}
+h1:hover {
+    color: cyan;
 }
 
 /* DESCRIPTION */
@@ -100,7 +117,11 @@ hr {
 }
 
 .creator-name {
-    font-weight: bold;
+    color: white;
+}
+
+.creator-name:hover {
+    color: cyan;
 }
 
 
