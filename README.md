@@ -1,2 +1,2 @@
-# personal-website
-This is Niko's Personal Website
+# NFT Preview Card Component
+Nft preview card component, design by frontendmentor
